@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liuzhongyuan/LinkedList/LinkedList.h
+iostream
+-
+
+/home/liuzhongyuan/LinkedList/main.cpp
+LinkedList.h
+/home/liuzhongyuan/LinkedList/LinkedList.h
+cstdlib
+-
+chrono
+-
+
